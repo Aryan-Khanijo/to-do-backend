@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "netlify-lambda build express",
+    "postinstall": "netlify-lambda install"
   },
-  "keywords": [],
+  "keywords": [
+    "netlify",
+    "express.js"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
